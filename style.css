@@ -1,0 +1,147 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 /192
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(228, 12%, 48%);
+  border-radius: 8px;
+  margin: 20px 10px;
+  width: fit-content;
+  position: relative;
+}
+
+img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 100%;
+}
+
+.text-container {
+  padding: 16px;
+}
+
+.perfume {
+  margin-bottom: 8px;
+  font-family: "Montserrat", serif;
+  letter-spacing: 1.5px;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  margin-bottom: 16px;
+  line-height: 1;
+  color: hsl(212, 21%, 14%);
+}
+
+.details {
+  font-size: 14px;
+  line-height: 1.6;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 24px;
+}
+
+.pricetag {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.price {
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+  font-weight: 900;
+  color: hsl(158, 36%, 37%);
+}
+
+.previous-price {
+  font-size: 14px;
+  text-decoration: line-through;
+  font-family: "Montserrat", serif;
+}
+
+button {
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px 0 rgba(27, 65, 51, 0.2);
+  background-color: rgb(27, 65, 51);
+}
+
+.cart {
+  width: 24px;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 24px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 12px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  .text-container {
+    width: fit-content;
+    background-color: hsl(0, 0%, 100%);
+  }
+}
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 /192
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
